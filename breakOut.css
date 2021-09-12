@@ -1,0 +1,30 @@
+#breakOut {
+	width: 800px;
+	height: 600px;
+	border: 3px solid black;
+	margin: 150px 0 0 250px;
+	background-color: white;
+	background-image: url(https://cdn.pixabay.com/photo/2016/07/09/07/48/blue-sky-1505848_1280.jpg);
+}
+
+body {
+	background: linear-gradient(green, yellow);
+}
+
+a {
+	text-align: center;
+	position: absolute;
+	right: 70px;
+	display: block;
+	width: 20%;
+	height: 50px;
+	top: 80px;
+	background: white;
+	cursor: pointer;
+}
+
+a:hover {
+	background: #F118FF;
+	transition: 0.8s;
+}
+
